@@ -1,0 +1,38 @@
+{
+  "name": "archive-js",
+  "version": "1.0.0",
+  "author": "shuiRong <shuirong1997@icloud.com>",
+  "description": "输入链接，抓取内容、提取并分析出标题、时间、正文，保存到Telegrah，输出Telegraph链接",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "NODE_ENV=production node ./src/main.js",
+    "dev": "NODE_ENV=development nodemon ./src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakeGolangGreat/archive-js.git"
+  },
+  "keywords": [
+    "archive",
+    "telegraph",
+    "mastodon",
+    "备份"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/MakeGolangGreat/archive-js/issues"
+  },
+  "homepage": "https://github.com/MakeGolangGreat/archive-js#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "@postlight/mercury-parser": "^2.2.0",
+    "atob": "^2.1.2",
+    "is-image": "^3.0.0",
+    "is-url": "^1.2.4",
+    "puppeteer": "^5.5.0",
+    "sanitize-html": "^2.1.2",
+    "sync-request": "^6.1.0"
+  }
+}
