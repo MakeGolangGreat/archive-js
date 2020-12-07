@@ -31,8 +31,12 @@
     "atob": "^2.1.2",
     "is-image": "^3.0.0",
     "is-url": "^1.2.4",
+    "isomorphic-fetch": "^3.0.0",
+    "jquery": "^3.5.1",
     "puppeteer": "^5.5.0",
     "sanitize-html": "^2.1.2",
-    "sync-request": "^6.1.0"
+    "socks5-https-client": "^1.2.1",
+    "sync-request": "^6.1.0",
+    "websocket": "^1.0.32"
   }
 }
